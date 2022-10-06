@@ -141,7 +141,6 @@ postgres=# \dtS
 - вывода описания содержимого таблиц
 ```bash
 postgres=# \d pg_database
-postgres=# \d pg_database
                Table "pg_catalog.pg_database"
     Column     |   Type    | Collation | Nullable | Default 
 ---------------+-----------+-----------+----------+---------
@@ -217,7 +216,6 @@ ALTER TABLE
 Перейдите в управляющую консоль `psql` внутри контейнера.
 ```bash
 postgres=# \l
- postgres=# \l
                                    List of databases
      Name      |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
 ---------------+----------+----------+------------+------------+-----------------------
